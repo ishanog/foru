@@ -1,3 +1,4 @@
+
 * {
     transition: all 0.2s ease-in-out;
   }
@@ -14,7 +15,7 @@
   .card {
     background: #fdfdfd;
     border-radius: 4px;
-    height: 100vh;
+    height: 85vh;
     width: 80vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     text-align: center;
@@ -37,7 +38,7 @@
     }
   }
   
-  @media only screen and (max-height: 6px) {
+  @media only screen and (max-height: 640px) {
     .card {
       flex-direction: row-reverse;
     }
@@ -49,7 +50,7 @@
   }
   
   img.birthday {
-    max-height: 100vh;
+    max-height: 40vh;
   }
   
   .text {
